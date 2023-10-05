@@ -1,1 +1,16 @@
-
+{
+  "definitions": {},
+  "$schema": "https://raw.githubusercontent.com/marcellmanfrin/auto-airbnb/main/inquiry-schema.json",
+  "$id": "AirbnbInquiry",
+  "type": "object",
+  "title": "Inquiry",
+  "required": [
+    "ChatURL",
+  ],
+  "properties": {
+    "ChatURL": {
+      "type": "string",
+      "title": "Char URL for the inquiry",
+    }
+  }
+}
